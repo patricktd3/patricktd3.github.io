@@ -1,0 +1,62 @@
+%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
+%%
+%% The CMU Beamer Colors Theme
+%%
+%% For making Beamer presentations in LaTeX at
+%% Central Michigan University
+%%
+%% Created by Patrick Davis
+%%
+%% Original Version: 4 September 2014
+%% Last Updated: 23 August 2016
+%%
+%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
+\ProvidesPackage{beamercolorthemecmucolors}[2014/09/10]
+
+% \mode<presentation>
+
+%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
+%%%        Define the Official CMU Colors      %%%
+%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
+%% From Brand Identity Standards (2014.v1) and Web Style Guide 
+
+%% PRIMARY COLORS (backgrounds, headlines, buttons, containers)
+\definecolor{cmichgold}{HTML}{FFC82E}
+\definecolor{cmichmaroon}{HTML}{6A0032}
+
+%% SECONDARY COLORS (backgounds for pages, containers, buttons, etc)
+\definecolor{cmichbeige}{HTML}{FEE4BB}
+\definecolor{cmichoffwhite}{HTML}{FFFBED}
+\definecolor{cmichmedgray}{HTML}{CCCCCC}
+\definecolor{cmichlightgray}{HTML}{EEEEEE}
+
+%% ACCENT COLORS (bullets, header copy, rule lines, small design elements)
+\definecolor{cmichblue}{HTML}{006482}
+\definecolor{cmichdarkmaroon}{HTML}{3F001F}
+\definecolor{cmichdarkgold}{HTML}{D7A404}
+\definecolor{cmichdarkgray}{HTML}{868686}
+
+% CENTRAL TEXT COLORbeamercolortheme
+\definecolor{cmichtext}{HTML}{333333}
+
+%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
+%%%        Set Color Options                   %%%
+%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
+\setbeamercolor{structure}{fg=cmichdarkmaroon,bg=cmichoffwhite}
+\setbeamercolor{titlelike}{fg=white,bg=cmichdarkmaroon}
+
+\setbeamercolor{block title}{fg=white,bg=cmichmaroon}
+\setbeamercolor{block body}{fg=black,bg=cmichlightgray}
+
+\setbeamercolor{block title alerted}{fg=cmichdarkmaroon,bg=cmichgold}
+\setbeamercolor{block body alerted}{fg=black,bg=cmichlightgray}
+
+\setbeamercolor{block title example}{fg=cmichblue,bg=cmichmedgray}
+\setbeamercolor{block body example}{fg=black,bg=cmichlightgray}
+
+\setbeamercolor{section in head/foot}{bg=cmichdarkmaroon,fg=white}
+\setbeamercolor{subsection in head/foot}{bg=cmichmaroon,fg=white}
+\setbeamercolor{author in head/foot}{bg=cmichgold,fg=cmichdarkmaroon}
+\setbeamercolor{title in head/foot}{bg=cmichmaroon,fg=white}
+
+% \mode<all>
