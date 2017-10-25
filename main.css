@@ -65,7 +65,7 @@ h4 {
     color: white;
 }
 
-#navigation a:hover { 
+#navigation a:hover {
     text-decoration: underline;
 }
 
@@ -80,7 +80,7 @@ h4 {
     color: inherit;
 }
 
-#content a:hover { 
+#content a:hover {
     text-decoration: underline;
 }
 
@@ -96,7 +96,7 @@ h4 {
     border-color: #333333;
     vertical-align: top;
     display: inline-block;
-    font-size: 25px;
+    font-size: 24px;
     background-color: white;
     vertical-align: middle;
 }
@@ -191,6 +191,6 @@ h4 {
     color: white;
 }
 
-#quick-link a:hover { 
+#quick-link a:hover {
     text-decoration: underline;
 }
